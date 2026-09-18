@@ -2,7 +2,7 @@
 
 This repository is the Claude Code distribution of [Cairn](https://github.com/uHappyLogic/cairn), a plugin that gives Claude Code a milestone-driven development workflow — clarify a goal, resolve every open question, derive an ordered task list, complete the tasks, and close out the milestone before moving on — for any kind of project. It carries the built Claude Code plugin tree exactly as a Cairn release published it: the `.claude-plugin/` marketplace and manifest beside the plugin's skills, agents, and shared procedures, which makes it the recommended source to add as a marketplace.
 
-> **Generated — do not edit.** Every file in this repository, this README included, is rendered from the sources of [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) by its host build and published verbatim by each Cairn release; nothing here is edited by hand, and a change made here would be overwritten by the next release. Issues are disabled in this repository on purpose — report problems and propose changes as issues and pull requests at [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn), never here.
+> **Generated — do not edit.** Every file on `main`, this README included, is rendered from the sources of [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) by its host build and published verbatim by each Cairn release; nothing here is edited by hand, and a change made here would be overwritten by the next release. The repository's only other branch, `traffic-data`, is not built from anything — the traffic workflow this tree carries, which runs only in this repository and never in an installed copy, writes its per-day data file and badge SVGs there daily for the adoption table in the root repository's README, and no release touches it. Issues are disabled in this repository on purpose — report problems and propose changes as issues and pull requests at [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn), never here.
 
 ## Installation
 
@@ -35,7 +35,7 @@ Run `/init` to document your project — its domain context, working conventions
 
 ## Source
 
-Built from [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) at release tag [`1.5.0`](https://github.com/uHappyLogic/cairn/releases/tag/1.5.0), whose release page carries the notes for this version. The exact source commit this tree was built from is recorded in the body of this repository's `Release: 1.5.0` commit.
+Built from [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) at release tag [`1.5.1`](https://github.com/uHappyLogic/cairn/releases/tag/1.5.1), whose release page carries the notes for this version. The exact source commit this tree was built from is recorded in the body of this repository's `Release: 1.5.1` commit.
 
 ## License
 
