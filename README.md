@@ -17,7 +17,7 @@ This repository is the Claude Code distribution of [Cairn](https://github.com/uH
 
 ## Installation
 
-Cairn has one runtime prerequisite: a **Python 3.9 or later** interpreter that answers as `python3` on your PATH. The skills drive the plugin's stdlib-only open-question tool with it (no packages to install), and `/init-milestone-base-workflow` checks it once per project, stopping with the remedy when it is missing.
+Cairn has two runtime prerequisites: **git**, with your project root inside a git work tree that every skill commits into, and a **Python 3.9 or later** interpreter that answers as `python3` on your PATH. The skills drive the plugin's stdlib-only open-question tool with Python (no packages to install), and `/init-milestone-base-workflow` checks both once per project, git first, stopping with the remedy when either is missing.
 
 ### Claude Code
 
@@ -52,7 +52,7 @@ Run `/init` to document your project — its domain context, working conventions
 
 ## Source
 
-Built from [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) at release tag [`1.7.3`](https://github.com/uHappyLogic/cairn/releases/tag/1.7.3), whose release page carries the notes for this version. The exact source commit this tree was built from is recorded in the body of this repository's `Release: 1.7.3` commit.
+Built from [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) at release tag [`1.7.4`](https://github.com/uHappyLogic/cairn/releases/tag/1.7.4), whose release page carries the notes for this version. The exact source commit this tree was built from is recorded in the body of this repository's `Release: 1.7.4` commit.
 
 ## License
 
