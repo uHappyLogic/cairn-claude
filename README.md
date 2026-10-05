@@ -9,7 +9,7 @@
 
 # Cairn for Claude Code
 
-Milestone-driven development for your coding agent — any kind of work, one milestone at a time.
+Cairn brings all the important questions up to be decided upfront, so you can hand long-running execution to your agent confidently.
 
 This repository is the Claude Code distribution of [Cairn](https://github.com/uHappyLogic/cairn). It carries the built Claude Code plugin tree exactly as a Cairn release published it: the `.claude-plugin/` marketplace and manifest beside the plugin's skills, agents, and shared procedures, which makes it the recommended source to add as a marketplace.
 
@@ -52,7 +52,7 @@ Run `/init` to document your project — its domain context, working conventions
 
 ## Source
 
-Built from [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) at release tag [`1.8.0`](https://github.com/uHappyLogic/cairn/releases/tag/1.8.0), whose release page carries the notes for this version. The exact source commit this tree was built from is recorded in the body of this repository's `Release: 1.8.0` commit.
+Built from [uHappyLogic/cairn](https://github.com/uHappyLogic/cairn) at release tag [`1.8.1`](https://github.com/uHappyLogic/cairn/releases/tag/1.8.1), whose release page carries the notes for this version. The exact source commit this tree was built from is recorded in the body of this repository's `Release: 1.8.1` commit.
 
 ## License
 
